@@ -28,7 +28,14 @@ export const useMovieFetch = movieId =>{
 
     };
     useEffect(()=>{
-        fetchData(movieId);
+        if(localStorage.movieId){
+           setState(JSON.parse(localStorage.movieId))
+        }else{
+            fetchData(movieId);
+        }   
     }, [movieId])
+    useEffect(()=>{
+        localStorage.setItem(movieId, JSON.stringify(state));
+    }, [movieId,state])
     return [state, loading, error]
 }
