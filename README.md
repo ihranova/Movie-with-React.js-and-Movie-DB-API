@@ -1,4 +1,4 @@
-# Movie App with React.js and Movie DB API
+# Mini Movie App with React.js and Movie DB API
 
 # Libraries and Technologies
 👉🏽 Accesses The Movie Database (TMDb) API for movie related data  <br/>
