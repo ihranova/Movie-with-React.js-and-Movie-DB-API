@@ -8,4 +8,6 @@
 👉🏽 Styled with Styled Components <br/>
 👉🏽 Uses FontAwesome  <br/>
 
-For API key you need to create .env and add REACT_APP_API_KEY=your-api
+Get API key - https://www.themoviedb.org/
+
+You need to create .env and add REACT_APP_API_KEY=your-api
