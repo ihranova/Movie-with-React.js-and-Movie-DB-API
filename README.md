@@ -1,1 +1,1 @@
-# Movie-with-React.js-and-Movie-DB-API
+# Movie with React.js and Movie DB API
