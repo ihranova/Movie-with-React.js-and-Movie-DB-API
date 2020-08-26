@@ -8,12 +8,12 @@ import {StyledActor} from '../styles/StyledActor';
 const Actor = ({actor}) =>{
     return (
        <StyledActor>
-           <img loading="lazy" src = {
+           <img  src = {
                actor.profile_path
                ? `${IMAGE_BASE_URL}${POSTER_SIZE}${actor.profile_path}`
                : noImage
            } 
-           alt = "actor"/>
+           alt = "actor" loading="lazy"/>
            <span className = "actor-name">{actor.name}</span>
         <span className = "actor-character">{actor.character}</span>
        </StyledActor>

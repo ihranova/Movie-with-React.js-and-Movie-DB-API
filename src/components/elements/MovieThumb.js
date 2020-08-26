@@ -8,10 +8,10 @@ const MovieThumb = ({ image, movieId, clickable }) => {
         <StyledMovieThumb>
             {clickable ? (
                 <Link to={`/${movieId}`} >
-                    <img loading="lazy" src={image} className="clickable" alt="movieid" />
+                    <img src={image} loading="lazy" className="clickable" alt="movieid" />
                 </Link>
             ) : (
-                    <img loading="lazy" src={image} alt="movieid" />
+                    <img loading="lazy" loading="lazy" src={image} alt="movieid" />
                 )
             }
         </StyledMovieThumb>
